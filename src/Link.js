@@ -7,7 +7,6 @@ const STATUS = {
 };
 
 export default function Link({page, children}) {
-  console.log({page})
   const [status, setStatus] = useState(STATUS.NORMAL);
 
   const onMouseEnter = () => {
